@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Maui.Controls;assembly=SkiaSharp.Views.Maui.Controls"
+             xmlns:viewmodel="clr-namespace:SpaceshipGame.ViewModel"
+             x:Class="SpaceshipGame.View.HighscoreView"
+             Title="HighscoreView">
+
+  <Grid>
+    <!-- Background canvas -->
+    <skia:SKCanvasView x:Name="canvasView"
+                       PaintSurface="CanvasView_PaintSurface" />
+
+    <!-- Overlay content -->
+    <Grid Padding="20">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" /> <!-- Header -->
+        <RowDefinition Height="Auto" /> <!-- Column headings -->
+        <RowDefinition Height="*" />    <!-- Scrollable list -->
+      </Grid.RowDefinitions>
+
+      <!-- Title -->
+      <Label Grid.Row="0"
+             Text="High Score"
+             FontSize="32"
+             FontAttributes="Bold"
+             HorizontalOptions="Center"
+             TextColor="White"
+             Margin="0,40,0,10" />
+
+      <!-- Column headings with white border -->
+      <Border Grid.Row="1" Stroke="White" StrokeThickness="1" BackgroundColor="Transparent" Padding="6" Margin="0,0,0,8">
+        <Grid ColumnSpacing="12">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="48" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="96" />
+          </Grid.ColumnDefinitions>
+
+          <Label Grid.Column="0" Text="#" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" />
+          <Label Grid.Column="1" Text="Player" FontAttributes="Bold" TextColor="White" VerticalOptions="Center" />
+          <Label Grid.Column="2" Text="Score" FontAttributes="Bold" TextColor="White" HorizontalOptions="End" VerticalOptions="Center" />
+        </Grid>
+      </Border>
+
+      <!-- Scrollable list of highscores -->
+      <CollectionView Grid.Row="2"
+                      ItemsSource="{Binding Highscores}"
+                      BackgroundColor="Transparent"
+                      SelectionMode="None"
+                      Margin="0">
+        <CollectionView.EmptyView>
+          <Label Text="No highscores yet."
+                 TextColor="#88FFFFFF"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand" />
+        </CollectionView.EmptyView>
+
+        <CollectionView.ItemTemplate>
+          <DataTemplate>
+            <Border Stroke="White" StrokeThickness="1" BackgroundColor="Transparent" Padding="8" Margin="0,0,0,6">
+              <Grid ColumnSpacing="12">
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="48" />
+                  <ColumnDefinition Width="*" />
+                  <ColumnDefinition Width="96" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Rank -->
+                <Label Grid.Column="0"
+                       Text="{Binding Rank}"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+
+                <!-- Player name -->
+                <Label Grid.Column="1"
+                       Text="{Binding PlayerName}"
+                       TextColor="White"
+                       VerticalOptions="Center" />
+
+                <!-- Score aligned to the right -->
+                <Label Grid.Column="2"
+                       Text="{Binding Score}"
+                       TextColor="White"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center" />
+              </Grid>
+            </Border>
+          </DataTemplate>
+        </CollectionView.ItemTemplate>
+      </CollectionView>
+    </Grid>
+  </Grid>
+</ContentPage>

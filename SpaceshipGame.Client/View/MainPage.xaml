@@ -1,0 +1,51 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Maui.Controls;assembly=SkiaSharp.Views.Maui.Controls"
+             xmlns:viewmodel="clr-namespace:SpaceshipGame.ViewModel"
+             xmlns:view="clr-namespace:SpaceshipGame.View"
+             x:Class="SpaceshipGame.Views.MainPage">
+
+    <Grid>
+        <skia:SKCanvasView x:Name="canvasView"
+               PaintSurface="CanvasView_PaintSurface" />
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+
+            <Image Source="deadspacelogo.png"
+               WidthRequest="400"
+              />
+
+            <Frame HasShadow="True" 
+               CornerRadius="10" 
+               Padding="0" 
+               BackgroundColor="#FF5722" 
+               Margin="0,0,0,40" 
+               WidthRequest="200" 
+               HeightRequest="50">
+                <Button Text="HighScore" 
+                    TextColor="White" 
+                    FontSize="24" 
+                    BackgroundColor="Transparent" 
+                    Command="{Binding HighScoreCommand}" />
+            </Frame>
+
+            <!-- Start button bound to ViewModel command -->
+            <Frame HasShadow="True" 
+               CornerRadius="10" 
+               Padding="0" 
+               BackgroundColor="#FF5722" 
+
+               Margin="0,0,0,40" 
+               WidthRequest="200" 
+               HeightRequest="50">
+                <Button Text="Start" 
+                    TextColor="White" 
+                    FontSize="24" 
+                    BackgroundColor="Transparent" 
+                    Command="{Binding StartGameCommand}" />
+            </Frame>
+        </VerticalStackLayout>
+
+    </Grid>
+
+</ContentPage>

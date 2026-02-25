@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\besar\\source\\repos\\Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA05A5E-98B2-42BF-A995-6287193EAB52}|SpaceshipGame.DataLayer\\SpaceshipGame.DataLayer.csproj|c:\\users\\besar\\source\\repos\\game\\spaceshipgame.datalayer\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA05A5E-98B2-42BF-A995-6287193EAB52}|SpaceshipGame.DataLayer\\SpaceshipGame.DataLayer.csproj|solutionrelative:spaceshipgame.datalayer\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA05A5E-98B2-42BF-A995-6287193EAB52}|SpaceshipGame.DataLayer\\SpaceshipGame.DataLayer.csproj|c:\\users\\besar\\source\\repos\\game\\spaceshipgame.datalayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8CA05A5E-98B2-42BF-A995-6287193EAB52}|SpaceshipGame.DataLayer\\SpaceshipGame.DataLayer.csproj|solutionrelative:spaceshipgame.datalayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B3F565-EF83-2056-1AC7-90BB4FB753D7}|..\\SpaceshipGame\\SpaceshipGame.Client.csproj|c:\\users\\besar\\source\\repos\\spaceshipgame\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 262,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appSettings.json",
+              "DocumentMoniker": "C:\\Users\\besar\\source\\repos\\Game\\SpaceshipGame.DataLayer\\appSettings.json",
+              "RelativeDocumentMoniker": "SpaceshipGame.DataLayer\\appSettings.json",
+              "ToolTip": "C:\\Users\\besar\\source\\repos\\Game\\SpaceshipGame.DataLayer\\appSettings.json",
+              "RelativeToolTip": "SpaceshipGame.DataLayer\\appSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-25T16:26:16.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\besar\\source\\repos\\Game\\SpaceshipGame.DataLayer\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "SpaceshipGame.DataLayer\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\besar\\source\\repos\\Game\\SpaceshipGame.DataLayer\\ApplicationDbContextFactory.cs*",
+              "RelativeToolTip": "SpaceshipGame.DataLayer\\ApplicationDbContextFactory.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T16:20:24.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\besar\\source\\repos\\SpaceshipGame\\Model\\Player.cs",
+              "RelativeDocumentMoniker": "..\\SpaceshipGame\\Model\\Player.cs",
+              "ToolTip": "C:\\Users\\besar\\source\\repos\\SpaceshipGame\\Model\\Player.cs",
+              "RelativeToolTip": "..\\SpaceshipGame\\Model\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T14:41:42.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 121,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
