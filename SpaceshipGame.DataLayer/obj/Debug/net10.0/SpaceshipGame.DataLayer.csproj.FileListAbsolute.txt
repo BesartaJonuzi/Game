@@ -1,0 +1,15 @@
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\bin\Debug\net10.0\SpaceshipGame.DataLayer.deps.json
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\bin\Debug\net10.0\SpaceshipGame.DataLayer.runtimeconfig.json
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\bin\Debug\net10.0\SpaceshipGame.DataLayer.dll
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\bin\Debug\net10.0\SpaceshipGame.DataLayer.pdb
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\SpaceshipGame.DataLayer.csproj.AssemblyReference.cache
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\SpaceshipGame.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\SpaceshipGame.DataLayer.AssemblyInfoInputs.cache
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\SpaceshipGame.DataLayer.AssemblyInfo.cs
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\SpaceshipGame.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\SpaceshipGame.DataLayer.sourcelink.json
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\SpaceshipGame.DataLayer.dll
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\refint\SpaceshipGame.DataLayer.dll
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\SpaceshipGame.DataLayer.pdb
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\SpaceshipGame.DataLayer.genruntimeconfig.cache
+C:\Users\besar\source\repos\Game\SpaceshipGame.DataLayer\obj\Debug\net10.0\ref\SpaceshipGame.DataLayer.dll
