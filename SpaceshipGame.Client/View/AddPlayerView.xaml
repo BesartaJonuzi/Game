@@ -113,7 +113,7 @@
               BackgroundColor="#FF5722"
               TextColor="White"
               AutomationId="PlayButton"
-              Command="{Binding AddPlayerAndStartGameCommand}" />
+              Command="{Binding AddPlayerCommand}" />
         </Grid>
   </Grid>
 </ContentPage>

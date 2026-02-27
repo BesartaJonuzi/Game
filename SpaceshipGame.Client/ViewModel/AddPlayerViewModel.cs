@@ -13,6 +13,7 @@ namespace SpaceshipGame.ViewModel
         public ICommand AddPlayerAndStartGameCommand { get; }
         public ICommand RotateLeftCommand { get; }
         public ICommand RotateRightCommand { get; }
+        public ICommand AddPlayerCommand { get; }
 
         public ObservableCollection<Player> Players { get; } = new();
 
@@ -46,6 +47,7 @@ namespace SpaceshipGame.ViewModel
             AddPlayerAndStartGameCommand = new Command(async () => await AddPlayerAndStartGame());
             RotateLeftCommand = new Command(OnRotateLeft);
             RotateRightCommand = new Command(OnRotateRight);
+            AddPlayer = new Command(AddPlayerCommand);
         }
 
         private void OnRotateLeft()
@@ -73,12 +75,12 @@ namespace SpaceshipGame.ViewModel
 
         }
 
-        //private async Task AddPlayer()
-        //{
-        // if (string.IsNullOrWhiteSpace(Username)) return;
-       // Players.Add(new Player { PlayerName = Username, Score = 0 });
-        //    Username = string.Empty; // Clear input after adding
-        //}
+        private async Task AddPlayer()
+        {
+            if (string.IsNullOrWhiteSpace(Username)) return;
+            Players.Add(new Player { PlayerName = Username, Score = 0 });
+            Username = string.Empty; // Clear input after adding
+        }
 
         public event PropertyChangedEventHandler? PropertyChanged;
     }
